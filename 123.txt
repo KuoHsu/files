@@ -1,0 +1,32 @@
+納豆是一種日本傳統食物，一種由黃豆發酵而成的食物，有著強烈的氣味、黏性，最大的特色是豆子之間會有絲
+納豆富含著豐富的營養價值，不僅含有黃豆的營養，還富含了維生素K2，更含有超過100種礦物質與養分。納豆具有調節生理機能與保健的功能，可以促進蛋白質的吸收效率。
+怎麼吃納豆？
+許多日本人會搭配醬油或芥末醬吃納豆，他們將納豆沾醬後，攪拌到絲狀物出現，再將納豆放置於白飯上食用。也有許多人將納豆搭配著生雞蛋、蔥、蘿蔔、柴魚等食材一起食用。在北海道，也有人會把納豆跟砂糖混和著一起吃。
+
+Notto is a traditional japanese food, a food made from fermented soybeans.Natto have strong flavor, sticky, and the most special feature is the silk between beans.
+
+Notta have the abundant nutritional value, not only have the soy's nutrition,but also have the abundant Vitamins K2, and have over 100 kinds minerals and nutrient.
+
+How to eat Notta?
+Many japanese will eat Notta with soy-sauce or wasabi, they stir it until the silk appear, and put it on the rice.
+Many people will eat Notta with raw eggs, shallot and radish, in Hokkaido, some people will mix Notta and sugar and eat that.
+
+
+
+insert into `student_table`(`ID`,`class_code`,`number`,`name`)
+values ('B10609002','M911',2,'李丞彥');
+
+-- borrowed from https://stackoverflow.com/q/7745609/808921
+
+  
+  
+  create table `student_table`(
+    `index` int auto_increment,
+    `ID` char(9) not null,
+    `class_code` char(4) not null,
+    `number` int(2) not null,
+    `name` varchar(6) not null,
+    PRIMARY KEY(`index`)
+  )default charset=utf8;
+
+
